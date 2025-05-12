@@ -29,7 +29,7 @@ function iniciarApp() {
     opcion = mostrarMenu();
 
     if (opcion === "1") {
-      let monto = prompt("Ingrese el monto en ARS:");
+      let monto = prompt("Ingrese el monto en ARS (Pesos Argentinos):");
       let montoNum = parseFloat(monto);
 
       if (isNaN(montoNum) || montoNum <= 0) {
