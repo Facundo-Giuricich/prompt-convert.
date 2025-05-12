@@ -8,7 +8,7 @@ function convertCurrency(pesos) {
 function mostrarMenu() {
   return prompt(
     "Seleccione una opción:\n" +
-    "1) Divisa (ARS -> USD)\n" +
+    "1) Divisa (ARS = USD)\n" +
     "2) Salir"
   );
 }
@@ -46,7 +46,7 @@ function iniciarApp() {
 
   } while (opcion !== "2");
 
-  console.log("Historial de conversiones:");
+  console.log("Historial de Conversiones:");
   console.log(history);
 }
 
